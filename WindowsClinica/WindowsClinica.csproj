@@ -63,17 +63,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202301162027316_initial.cs" />
-    <Compile Include="Migrations\202301162027316_initial.designer.cs">
-      <DependentUpon>202301162027316_initial.cs</DependentUpon>
+    <Compile Include="Migrations\202301162033231_initial.cs" />
+    <Compile Include="Migrations\202301162033231_initial.designer.cs">
+      <DependentUpon>202301162033231_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Clinica.cs" />
     <Compile Include="Models\Habitacion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Migrations\202301162027316_initial.resx">
-      <DependentUpon>202301162027316_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202301162033231_initial.resx">
+      <DependentUpon>202301162033231_initial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

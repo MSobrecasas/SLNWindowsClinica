@@ -12,7 +12,7 @@ namespace WindowsClinica.Models
     public class Habitacion
     {
         public int Id { get; set; }
-        public int Numero { get; set; }
+        public int? Numero { get; set; }
 
         [Column(TypeName = "varchar")]
         [StringLength(50)]

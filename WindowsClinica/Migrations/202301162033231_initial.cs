@@ -13,7 +13,7 @@
                     {
                         Id = c.Int(nullable: false, identity: true),
                         Nombre = c.String(nullable: false, maxLength: 50, unicode: false),
-                        FechaInicioActividades = c.DateTime(nullable: false),
+                        FechaInicioActividades = c.DateTime(),
                     })
                 .PrimaryKey(t => t.Id);
             
@@ -22,7 +22,7 @@
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        Numero = c.Int(nullable: false),
+                        Numero = c.Int(),
                         Estado = c.String(nullable: false, maxLength: 50, unicode: false),
                         Descripcion = c.String(maxLength: 200, unicode: false),
                     })

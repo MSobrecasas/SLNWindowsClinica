@@ -18,6 +18,6 @@ namespace WindowsClinica.Models
         [Required]
         public string Nombre { get; set; }
 
-        public DateTime FechaInicioActividades { get; set; }
+        public DateTime? FechaInicioActividades { get; set; }
     }
 }
